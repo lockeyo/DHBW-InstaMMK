@@ -15,10 +15,10 @@
             </p>
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="index.php">Home</a>
                 </li>
                 <li>
-                    <a href="#">Profil</a>
+                    <a href="profile.php">Profil</a>
                 </li>
             </ul>
         </nav>
