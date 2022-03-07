@@ -24,6 +24,10 @@
 
     <!-- Main -->
     <main>
+        <h1>Timeline</h1>
+        <article>
+            <img src="bild.png" width="500px" alt="image">
+        </article>
 
     </main>
 
