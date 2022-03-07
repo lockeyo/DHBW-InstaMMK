@@ -11,10 +11,10 @@
         // Check connection
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
-
-            $sql = "SELECT * FROM users";
-            $result = $conn->query($sql);
         }
+
+        $sql = "SELECT * FROM users";
+        $result = $conn->query($sql);
     ?>
     
 <!DOCTYPE html>
