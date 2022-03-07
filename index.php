@@ -26,7 +26,7 @@
     <main>
         <h1>Timeline</h1>
         <article>
-            <img src="bild.png" width="500px" alt="image">
+            <img src="bild1.png" width="500px" alt="image">
         </article>
 
     </main>
