@@ -50,9 +50,7 @@
 
         <p>
             <?php 
-                if($result->num_rows > 0){
                     echo $result[0]["userName"];
-                }
             ?>
         </p>
 
