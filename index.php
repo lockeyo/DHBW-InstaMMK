@@ -10,7 +10,12 @@
             <p>
                 <?php
                     $name = $_GET['name'];
-                    echo "Halo " . $name;
+                    if($name == "Marcel"){
+                        echo $name . "'s Website";
+                    }
+                    else{
+                        echo "Hallo Welt";
+                    }
                 ?>
             </p>
             <ul>
