@@ -27,8 +27,8 @@
         <h1>Timeline</h1>
         <article>
             <img src="bild1.png" width="500px" alt="image">
+            <p>Hallo meine Lieben. Hier ist ein neuer Beitrag zum neuen Windrad. Lasst ein Abo da, dass ihr kein Beitrag mehr verpasst.</p>
         </article>
-
     </main>
 
     <!-- Footer -->
