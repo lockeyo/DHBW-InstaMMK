@@ -8,11 +8,7 @@
     else{
         $imageId = 1;
     }
-
-    $result = null;
-
-    /*
-
+    
     // ### MySQL Connection
     // ### 
     $servername = "localhost";
@@ -30,14 +26,12 @@
     }
     
     // $conn->select_db("mmk21");
-    $conn->select_db("InstaMMK");
+    $conn->select_db("mmk21");
 
     $sql = "SELECT * FROM posts WHERE id = " . $imageId . " LIMIT 1";
     $result = $conn->query($sql);
     // $sql2 = "SELECT * FROM users WHERE id = " . $result[0]->id;
     // $result2 = $conn->query($sql2);
-
-    */
 
 ?>
 
