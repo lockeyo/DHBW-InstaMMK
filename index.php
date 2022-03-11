@@ -79,7 +79,7 @@
                 <img src="images/<?php echo $row['image'] ?>" alt="image">
                 <p class="text"><?php echo $row['description'] ?></p>
                 <p class="heart">
-                    <a onclick="alert('Diese Funktion ist nicht aktiv')">
+                    <a onclick="alert('Aktuell kannst du keine Posts mit einem Like markieren')">
                         <i class="fa fa-heart-o" aria-hidden="true"></i>
                     </a>
                 </p>
@@ -110,27 +110,27 @@
             <div id="navigation">
                 <ul>
                     <li>
-                        <a onclick="alert('Diese Funktion ist nicht aktiv')">
+                        <a onclick="alert('Aktuell können keine weiteren Bilder hinzugefügt werden.')">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
-                        <a onclick="alert('Diese Funktion ist nicht aktiv')">
+                        <a onclick="alert('Aktuell kann MMK-Insta nicht nach Bildern durchsucht werden')">
                             <i class="fa fa-search" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li class="active">
-                        <a onclick="alert('Diese Funktion ist nicht aktiv')">
+                        <a onclick="alert('Du bist bereits auf Home-Seite')">
                             <i class="fa fa-home" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
-                        <a onclick="alert('Diese Funktion ist nicht aktiv')">
+                        <a onclick="alert('Aktuell können keine Nachrichten angezeigt werden')">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
-                        <a onclick="alert('Diese Funktion ist nicht aktiv')">
+                        <a onclick="alert('Aktuell kannst du nicht auf dein Profil zugreifen')">
                             <i class="fa fa-user" aria-hidden="true"></i>
                         </a>
                     </li>
