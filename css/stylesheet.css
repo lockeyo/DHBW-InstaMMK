@@ -1,0 +1,131 @@
+/* Header */
+#topHeader{
+    background: #339cd6;
+    height: 130px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 160%;
+}
+
+#topHeader h1{
+    text-align: center;
+    color: #fff;
+}
+
+/* Content */
+main{
+    margin: 150px 0 0 0;
+}
+
+main #timeline{
+    width: 700px;
+    margin: 0 auto;
+}
+
+main #prevImage{
+    float: left;
+    width: 65px;
+    text-align: left;
+    padding-top: 150px;
+    font-size: 60px;
+}
+
+main #prevImage a,
+main #nextImage a{
+        color: #339cd6;
+}
+
+main #timelineContent{
+    width: 570px;
+    margin: 0 auto;
+    float: left;;
+}
+
+main #nextImage{
+    float: left;
+    width: 65px;
+    text-align: right;
+    padding-top: 150px;
+    font-size: 60px;
+    color: #339cd6;
+}
+
+main #timeline .usernamen{
+    color: #339cd6;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 5px 0;
+    font-size: 24px;
+}
+
+main #timeline img{
+    width: 100%;
+}
+
+main #timeline .text{
+    float: left;
+    width: 79%;
+}
+
+main #timeline .heart{
+    float: right;
+    text-align: right;
+    width: 20%;
+    font-size: 48px;
+    color: #339cd6;
+    margin: 5px 0 0 0;
+}
+
+main #timeline date{
+    text-align: left;
+}
+
+/* Footer */ 
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    width: 100%;
+}
+
+#navigationWrapper{
+    margin-left: -570px;
+}
+
+#navigation{
+    width: 570px;
+    height: 110px;
+    margin: 0 50%;
+    position: relative;
+    background: #339cd6;
+    border-radius: 25px;
+}
+
+footer ul, footer li{
+    list-style: none;
+}
+
+footer li{
+    float: left;
+    margin: 20px 20px;
+}
+
+footer .active{
+    background: #fff;
+    margin: -10px 0 0 0;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+footer .active a{
+    font-size: 80px !important;
+    color: #339cd6;
+}
+
+footer li a{
+    font-size: 60px !important;
+    color: #fff;
+}
