@@ -9,6 +9,10 @@
         $imageId = 1;
     }
 
+    $result = null;
+
+    /*
+
     // ### MySQL Connection
     // ### 
     $servername = "localhost";
@@ -32,6 +36,8 @@
     $result = $conn->query($sql);
     // $sql2 = "SELECT * FROM users WHERE id = " . $result[0]->id;
     // $result2 = $conn->query($sql2);
+
+    */
 
 ?>
 
