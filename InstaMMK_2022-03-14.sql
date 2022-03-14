@@ -1,3 +1,6 @@
+CREATE DATABASE InstaMMK;
+USE InstaMMK;
+
 # ************************************************************
 # Sequel Pro SQL dump
 # Version 4541
@@ -23,8 +26,6 @@
 # Export von Tabelle imageComments
 # ------------------------------------------------------------
 
-DROP TABLE IF EXISTS `imageComments`;
-
 CREATE TABLE `imageComments` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `imageId` int(11) DEFAULT NULL,
@@ -37,7 +38,6 @@ CREATE TABLE `imageComments` (
 # Export von Tabelle posts
 # ------------------------------------------------------------
 
-DROP TABLE IF EXISTS `posts`;
 
 CREATE TABLE `posts` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
@@ -50,8 +50,6 @@ CREATE TABLE `posts` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-LOCK TABLES `posts` WRITE;
-/*!40000 ALTER TABLE `posts` DISABLE KEYS */;
 
 INSERT INTO `posts` (`id`, `standort`, `image`, `description`, `link`, `date`, `userId`)
 VALUES
@@ -72,14 +70,9 @@ VALUES
 	(15,'Mannheim','image15.jpeg','Heute wieder richtig viel Musik produziert. Blöd nur wenn die Datei zu groß ist! Zum Glück gibt es Datenkompression! Mit einem Codec kann ich meine MP3 Datei easy  konvertieren! Danke Technik! #codecs #datenkompression',NULL,'2022-03-14','Anna'),
 	(16,'Mannheim','image16.jpeg','OSI- Referenzmodell: Text: Wie werden Daten transportiert? Die Ebenen des OSI-Referenzmodells erklären hier so einiges. Oder was meint ihr? #kommunikation #internettechnologien #daten\n',NULL,'2022-03-14','Marcel');
 
-/*!40000 ALTER TABLE `posts` ENABLE KEYS */;
-UNLOCK TABLES;
-
 
 # Export von Tabelle users
 # ------------------------------------------------------------
-
-DROP TABLE IF EXISTS `users`;
 
 CREATE TABLE `users` (
   `id` int(11) DEFAULT NULL,
@@ -89,17 +82,10 @@ CREATE TABLE `users` (
   `bio` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-LOCK TABLES `users` WRITE;
-/*!40000 ALTER TABLE `users` DISABLE KEYS */;
-
 INSERT INTO `users` (`id`, `profileName`, `profileImage`, `followers`, `bio`)
 VALUES
 	(1,'Marcel','marcel.jpeg',31,'Dozent an der DHBW Mannheim'),
 	(NULL,'Anna','anna.jpeg',12243,'Zukünftige Studentin an der DHBW Mannheim');
-
-/*!40000 ALTER TABLE `users` ENABLE KEYS */;
-UNLOCK TABLES;
-
 
 
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
